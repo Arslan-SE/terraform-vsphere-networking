@@ -14,3 +14,4 @@ resource "vsphere_host_port_group" "devPg" {
   host_system_id      = "${data.terraform_remote_state.vsphere_host.esx_host.id}"
   virtual_switch_name = "${var.switchName}"
   }
+  
